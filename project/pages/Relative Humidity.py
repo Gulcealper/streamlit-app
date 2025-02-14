@@ -38,7 +38,7 @@ col3.metric("Minimum Relative Humidity:", f"{min_rh:.2f}")
 
 selected_graphs = st.multiselect(
     "Select statistical graphs to display: (Optional)",
-    ["KDE Plot", "Box Plot"],
+    ["KDE Plot", "Box-Plot"],
     default=["KDE Plot"]
 )
 col1, col2, col3 = st.columns(3)
