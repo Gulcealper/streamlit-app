@@ -5,6 +5,9 @@ backgroundColor = "#FFFFFF"
 secondaryBackgroundColor = "#D3D3D3"
 textColor = "#333335"
 font = "sans serif"
+base="light"
 
 [layout]
 wide = true
+
+
