@@ -30,8 +30,8 @@ def load_data():
 
 
 #Initializing session state to collect data at first load
-if 'data' not in st.session_state:
-    st.session_state.data = load_data()
+st.session_state.data = load_data()
+# Accessing the data from session state
 df = st.session_state.data
 
 
