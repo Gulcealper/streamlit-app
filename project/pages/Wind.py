@@ -58,7 +58,7 @@ if "Box Plot" in selected_graphs:
         ax.set_xlabel('Wind Speed (km/h)', fontsize=18)
         ax.tick_params(axis='both', labelsize=16)
         st.pyplot(fig)
-if "Rose-Plot" in selected_graphs:
+if "Rose Plot" in selected_graphs:
     with col3:
         angles = np.deg2rad(df['Wind Direction (°)'])
         direction_names = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
