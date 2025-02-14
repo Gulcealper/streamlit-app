@@ -3,10 +3,6 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
-import dash
-from dash import dcc, html, Input, Output
-from streamlit_extras.app_logo import add_logo
-import altair as alt
 import plotly.graph_objects as go
 import seaborn as sns
 import numpy as np
