@@ -23,7 +23,7 @@ st.markdown('👉[Click here to visit Tableau Public](https://public.tableau.com
 
 
 #Loading and caching data from local file
-@st.experimental_memo
+@st.cache_data
 def load_data():
     df = pd.read_parquet("project/new_df.parquet")
     return df
