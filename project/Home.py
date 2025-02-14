@@ -25,7 +25,7 @@ st.markdown('👉[Click here to visit Tableau Public](https://public.tableau.com
 #Loading and caching data from local file
 @st.cache_data
 def load_data():
-    df = pd.read_parquet(project/new_df.parquet")
+    df = pd.read_parquet("project/new_df.parquet")
     return df
 
 
@@ -38,7 +38,7 @@ df = st.session_state.data
 #Placing NWFP map image and Plotly stacked bar chart side by side
 col1, col2 = st.columns([1, 2]) 
 with col1:
-    st.image("nwfp.png")
+    st.image("project/nwfp.png")
     st.markdown('<p style="text-align: center; font-size: 50px, font-weight: bold; color: black;">NWFP Map</p>', unsafe_allow_html=True)
 melted_df = df.melt(value_vars=['Precipitation (mm) Quality', 'Air Temperature (°C) Quality', 
                                 'Relative Humidity (%RH) Quality', 'Wind Speed (km/h) Quality', 'Wind Direction (°) Quality'], var_name='Category', value_name='Value')
