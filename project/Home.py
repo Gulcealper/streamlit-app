@@ -12,7 +12,7 @@ st.set_page_config(page_title="Home Page", layout="wide")
 #Placing Rothamsted logo and page title side by side
 col1, col2 = st.columns([1, 5])  
 with col1:
-    st.image("C:/Users/user.NBIALPER/Desktop/codes/project/logo.jpg", width=180)  
+    st.image("logo.jpg", width=180)  
 with col2:
     st.markdown("<h1 style='margin-top: 20px;'>Welcome to the North Wyke Farm Platform Meteorological Data Dashboard!</h1>", unsafe_allow_html=True)
 st.write(f"This web application features visualizations of various statistical methods applied to the 9-year (2014-2022) NWFP Meteorological (MET) data. For a variable-focused study, please select one of the MET measurements from the sidebar. Each section contains components of summary statistics, seasonal perspectives of the time series and comparisons of the selected measurement. For further evaluation, you may also visit the 'Missingness Impact' Tableau dashboard via the link provided below.")
@@ -38,7 +38,7 @@ df = st.session_state.data
 #Placing NWFP map image and Plotly stacked bar chart side by side
 col1, col2 = st.columns([1, 2]) 
 with col1:
-    st.image("C:/Users/user.NBIALPER/Desktop/codes/project/nwfp.png")
+    st.image("nwfp.png")
     st.markdown('<p style="text-align: center; font-size: 50px, font-weight: bold; color: black;">NWFP Map</p>', unsafe_allow_html=True)
 melted_df = df.melt(value_vars=['Precipitation (mm) Quality', 'Air Temperature (°C) Quality', 
                                 'Relative Humidity (%RH) Quality', 'Wind Speed (km/h) Quality', 'Wind Direction (°) Quality'], var_name='Category', value_name='Value')
