@@ -235,7 +235,7 @@ if selected_year:
                     colorscale='ice_r',
                     line=dict(width=1, color='black'),
                     size=15,
-                    colorbar=dict(title='Wind Speed', title='top', x=1, y=0.5, len=1.5)),
+                    colorbar=dict(title='Wind Speed', x=1, y=0.5, len=1.5)),
                     opacity=0.70 ))
         fig_polar_daily.update_layout(
             width=450,
@@ -308,7 +308,7 @@ if selected_year:
                         colorscale='ice_r',
                         line=dict(width=1, color='black'),
                         size=15,
-                        colorbar=dict(title='Wind Speed', titleside='top', x=1, y=0.5, len=1.5)),
+                        colorbar=dict(title='Wind Speed', x=1, y=0.5, len=1.5)),
                         opacity=0.70 ))
             fig_polar_hourly.update_layout(
                 width=450,
