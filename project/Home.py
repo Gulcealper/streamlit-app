@@ -29,9 +29,10 @@ def load_data():
     return df
 
 
-#Initializing session state to collect data at first load
-st.session_state.data = load_data()
-# Accessing the data from session state
+if 'data' not in st.session_state:
+    st.session_state.data = load_data()
+
+# Access the data from session state
 df = st.session_state.data
 
 
