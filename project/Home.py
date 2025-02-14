@@ -6,7 +6,7 @@ import pandas as pd
 
 
 #Page configuration
-st.set_page_config(page_title="Home Page", layout="wide")
+st.set_page_config(page_title="NWFP MET", layout="wide")
 
 
 #Placing Rothamsted logo and page title side by side
