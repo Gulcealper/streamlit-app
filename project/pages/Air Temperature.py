@@ -44,7 +44,7 @@ selected_graphs = st.multiselect(
     ["KDE Plot", "Box Plot"],
     default=["KDE Plot"]
 )
-col1, col2, col3 = st.columns(3)
+col1, col2 = st.columns(2)
 if "KDE Plot" in selected_graphs:
     with col1:
         fig, ax = plt.subplots(figsize=(12, 6))
