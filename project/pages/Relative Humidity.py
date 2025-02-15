@@ -42,10 +42,10 @@ selected_graphs = st.multiselect(
     default=["KDE Plot"]
 )
 col1, col2, col3 = st.columns(3)
-if "KDE Plot" in selected_graphs:
+if "Histogram" in selected_graphs:
     with col1:
         fig, ax = plt.subplots(figsize=(12, 6))
-        sns.kdeplot(df['Relative Humidity (%RH)'], fill=True, ax=ax, color='CornflowerBlue')
+        sns.histplot(df['Relative Humidity (%RH)'], bins=40, ax=ax, color='CornflowerBlue')
         ax.set_title('KDE Plot of Relative Humidity', fontsize=20)
         ax.set_xlabel('Relative Humidity (%RH)', fontsize=18)
         ax.set_ylabel('Density', fontsize=18)
