@@ -41,7 +41,7 @@ if "Histogram" in selected_graphs:
     with col1:
         fig, ax = plt.subplots(figsize=(12, 6))
         sns.histplot(df['Precipitation (mm)'], bins=40, ax=ax, color='CornflowerBlue')
-        ax.set_title('KDE Plot of Precipitation', fontsize=20)
+        ax.set_title('Histogram of Precipitation', fontsize=20)
         ax.set_xlabel('Precipitation (mm)', fontsize=18)
         ax.set_ylabel('Density', fontsize=18)
         ax.tick_params(axis='both', labelsize=16)
