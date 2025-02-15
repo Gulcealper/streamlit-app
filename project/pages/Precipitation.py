@@ -40,7 +40,7 @@ col1, col2, col3 = st.columns(3)
 if "KDE Plot" in selected_graphs:
     with col1:
         fig, ax = plt.subplots(figsize=(12, 6))
-        sns.kdeplot(df['Precipitation (mm)'], fill=True, ax=ax, color='CornflowerBlue')
+        sns.histplot(df['Precipitation (mm)'], bins=40, ax=ax, color='CornflowerBlue')
         ax.set_title('KDE Plot of Precipitation', fontsize=20)
         ax.set_xlabel('Precipitation (mm)', fontsize=18)
         ax.set_ylabel('Density', fontsize=18)
