@@ -46,7 +46,7 @@ if "Histogram" in selected_graphs:
     with col1:
         fig, ax = plt.subplots(figsize=(12, 6))
         sns.histplot(df['Relative Humidity (%RH)'], bins=40, ax=ax, color='CornflowerBlue')
-        ax.set_title('KDE Plot of Relative Humidity', fontsize=20)
+        ax.set_title('Histogram of Relative Humidity', fontsize=20)
         ax.set_xlabel('Relative Humidity (%RH)', fontsize=18)
         ax.set_ylabel('Density', fontsize=18)
         ax.tick_params(axis='both', labelsize=16)
