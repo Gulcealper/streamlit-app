@@ -12,7 +12,7 @@ st.markdown(
     """
     <style>
     body {
-        zoom: 90%;
+        zoom: 100%;
     }
     </style>
     """,
