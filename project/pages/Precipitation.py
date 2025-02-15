@@ -33,11 +33,11 @@ col1.metric("Total Precipitation:", f"{sum_prep:.2f}")
 
 selected_graphs = st.multiselect(
     "Select statistical graphs to display: (Optional)",
-    ["KDE Plot", "Box-Plot"],
-    default=["KDE Plot"]
+    ["Histogram", "Box-Plot"],
+    default=["Histogram"]
 )
 col1, col2, col3 = st.columns(3)
-if "KDE Plot" in selected_graphs:
+if "Histogram" in selected_graphs:
     with col1:
         fig, ax = plt.subplots(figsize=(12, 6))
         sns.histplot(df['Precipitation (mm)'], bins=40, ax=ax, color='CornflowerBlue')
