@@ -19,7 +19,7 @@ st.write(f"This web application provides visualizations of seasonal changes of t
 
 
 #Adding a link to Tableau dashboard
-st.markdown('👉[Click here to visit Tableau Public](https://public.tableau.com/app/profile/gulce.alper/vizzes)')
+st.markdown('👉[Click here to visit Tableau Public](https://public.tableau.com/app/profile/gulce.alper4379/viz/NWFPMET/Dashboard')
 
 
 #Loading and caching data from local file
