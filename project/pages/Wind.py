@@ -37,14 +37,14 @@ col3.metric("Minimum Wind Speed:", f"{min_ws:.2f}")
 
 selected_graphs = st.multiselect(
     "Select statistical graphs to display: (Optional)",
-    ["KDE Plot", "Box Plot", "Rose Plot"],
+    ["Histogram", "Box Plot", "Rose Plot"],
     default=["KDE Plot"]
 )
 col1, col2, col3 = st.columns(3)
-if "KDE Plot" in selected_graphs:
+if "Histogram" in selected_graphs:
     with col1:
         fig, ax = plt.subplots(figsize=(12, 6))
-        sns.kdeplot(df['Wind Speed (km/h)'], fill=True, ax=ax, color='CornflowerBlue')
+        sns.histplot(df['Wind Speed (km/h)'], bins=40, ax=ax, color='CornflowerBlue')
         ax.set_title('KDE Plot of Wind Speed', fontsize=20)
         ax.set_xlabel('Wind Speed (km/h)', fontsize=18)
         ax.set_ylabel('Density', fontsize=18)
