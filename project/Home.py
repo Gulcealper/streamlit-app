@@ -11,8 +11,10 @@ st.set_page_config(page_title="NWFP MET", layout="wide")
 st.markdown(
     """
     <style>
-    body {
-        zoom: 100%;
+    html {
+        transform: scale(0.67);
+        transform-origin: top left;
+        width: 150%;
     }
     </style>
     """,
