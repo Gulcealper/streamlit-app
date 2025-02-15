@@ -51,7 +51,7 @@ if "Histogram" in selected_graphs:
         ax.set_ylabel('Density', fontsize=18)
         ax.tick_params(axis='both', labelsize=16)
         st.pyplot(fig)
-if "Box-Plot" in selected_graphs:
+if "Box-Plot" in selected_graphs: 
     with col2:
         fig, ax = plt.subplots(figsize=(12, 6))
         sns.boxplot(x=df['Relative Humidity (%RH)'], ax=ax, color='CornflowerBlue')
