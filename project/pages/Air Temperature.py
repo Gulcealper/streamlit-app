@@ -49,7 +49,7 @@ if "Histogram" in selected_graphs:
     with col1:
         fig, ax = plt.subplots(figsize=(12, 6))
         sns.histplot(df['Air Temperature (°C)'], bins=40, ax=ax, color='CornflowerBlue')
-        ax.set_title('KDE Plot of Air Temperature', fontsize=20)
+        ax.set_title('Histogram of Air Temperature', fontsize=20)
         ax.set_xlabel('Air Temperature (°C)', fontsize=18)
         ax.set_ylabel('Density', fontsize=18)
         ax.tick_params(axis='both', labelsize=16)     
