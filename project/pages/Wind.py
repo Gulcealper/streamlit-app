@@ -38,7 +38,7 @@ col3.metric("Minimum Wind Speed:", f"{min_ws:.2f}")
 selected_graphs = st.multiselect(
     "Select statistical graphs to display: (Optional)",
     ["Histogram", "Box Plot", "Rose Plot"],
-    default=["KDE Plot"]
+    default=["Histogram"]
 )
 col1, col2, col3 = st.columns(3)
 if "Histogram" in selected_graphs:
