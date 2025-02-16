@@ -14,13 +14,7 @@ st.title("Precipitation")
 
 
 
-@st.cache_data
-def load_data():
-    df = pd.read_parquet("project/new_df.parquet")
-    return df
 
-if 'data' not in st.session_state:
-    st.session_state.data = load_data()
 
 # Access the data from session state
 df = st.session_state.data
