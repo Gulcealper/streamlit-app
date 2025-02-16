@@ -8,14 +8,7 @@ import pandas as pd
 #Page configuration
 st.set_page_config(page_title="NWFP MET", layout="wide")
 
-st.markdown(
-    """
-    <style>
-        body { background-color: #FFFFFF !important; }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+
 
 
 #Placing Rothamsted logo and page title side by side
