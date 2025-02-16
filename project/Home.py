@@ -16,7 +16,7 @@ with col1:
     st.image("project/logo.jpg", width=180)  
 with col2:
     st.markdown("<h1 style='margin-top: 20px;'>Welcome to the North Wyke Farm Platform Meteorological Data Dashboard!</h1>", unsafe_allow_html=True)
-st.write(f"This web application provides visualizations of seasonal changes of the 9-year (2014-2022) NWFP Meteorological (MET) data. For a variable-focused study, please select one of the MET measurements from the sidebar. Each section contains components of summary statistics, seasonal perspectives of the time series and a optional comparison of the selected variables. For further evaluation, you may also visit the 'Missingness Impact on th NWFP MET Data' Tableau dashboard via the link provided below.")
+st.write(f"This web application provides visualizations of seasonal changes of the 9-year (2014-2022) NWFP Meteorological (MET) data. For a variable-focused study, please select one of the MET measurements from the sidebar. Each section contains components of summary statistics, seasonal perspectives of the time series and a optional comparison of the selected variables. For further evaluation, you may also visit the 'Missing Data Analysis of NWFP MET Data' Tableau dashboard via the link provided below.")
 
 
 #Adding a link to Tableau dashboard
