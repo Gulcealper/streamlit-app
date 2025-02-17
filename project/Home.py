@@ -15,8 +15,8 @@ st.markdown(
     <style>
         /* Reduce sidebar width */
         [data-testid="stSidebar"] {
-            width: 250px !important;
-            min-width: 250px !important;
+            width: 280px !important;
+            min-width: 280px !important;
         }
 
         /* Apply zoom globally */
