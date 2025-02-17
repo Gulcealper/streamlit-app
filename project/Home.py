@@ -23,9 +23,9 @@ st.markdown(
 
         /* Use transform: scale instead of zoom */
         html {
-            transform: scale(0.5);
+            transform: scale(0.7);
             transform-origin: top left;
-            width: 100%;
+            width: 150%;
         }
     </style>
     """,
