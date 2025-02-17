@@ -23,7 +23,7 @@ st.markdown(
 
         /* Use transform: scale instead of zoom */
         html {
-            transform: scale(0.8);
+            transform: scale(0.2);
             transform-origin: top left;
             width: 150%;
         }
