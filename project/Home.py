@@ -5,6 +5,17 @@ import plotly.express as px
 import pandas as pd
 
 
+st.markdown(
+    """
+    <style>
+        body {
+            zoom: 67%;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 #Page configuration
 st.set_page_config(page_title="NWFP MET", layout="wide")
 
