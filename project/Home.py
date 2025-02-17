@@ -30,7 +30,7 @@ st.markdown(
             width: 100% !important;
             max-width: 100% !important;
             margin-left: 0 !important;
-            margin-right: 80 !important;
+            margin-right: 200 !important;
             padding-left: "10px;
             padding-right: 10px;
         }
