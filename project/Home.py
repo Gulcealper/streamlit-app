@@ -71,7 +71,7 @@ with col2:
     fig.for_each_trace(lambda t: t.update(name=new_legend_titles.get(t.name, t.name)))
     fig.update_layout(
         title='The NWFP MET Data Quality Distribution by Variable',
-        title_x=0.2,
+        title_x=0.3,
         template='seaborn',
         xaxis=dict(title='', showgrid=False),
         yaxis=dict(title='', showgrid=False),
