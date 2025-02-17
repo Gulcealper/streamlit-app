@@ -35,10 +35,6 @@ st.markdown(
             padding-right: 10px;
         }
 
-        /* Adjust for the main content */
-        .css-1d391kg {
-            width: 100% !important;
-        }
     </style>
     """,
     unsafe_allow_html=True,
