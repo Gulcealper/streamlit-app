@@ -22,7 +22,7 @@ st.markdown(
 
         /* Apply zoom globally */
         html, body {
-            zoom: 950%;
+            zoom: 95%;
         }
     </style>
     """,
