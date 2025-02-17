@@ -79,7 +79,7 @@ with col2:
         yaxis_title='Count',
         bargap=0.2,
         width=900,
-        height=400,
+        height=900,
         legend=dict(title=None, orientation='h', yanchor='bottom', y=-0.5, xanchor='center', x=0.5,))
     st.plotly_chart(fig)
 
