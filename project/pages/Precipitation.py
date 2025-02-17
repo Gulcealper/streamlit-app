@@ -12,6 +12,19 @@ st.set_page_config(layout="wide")
 st.title("Precipitation")
 
 
+st.markdown(
+    """
+    <style>
+        /* Reduce sidebar width */
+        [data-testid="stSidebar"] {
+            width: 240px !important;
+            min-width: 240px !important;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 
 
 @st.cache_data
