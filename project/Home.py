@@ -10,10 +10,6 @@ import pandas as pd
 st.set_page_config(page_title="NWFP MET", layout="wide")
 
 
-
-
-
-
 st.markdown(
     """
     <style>
@@ -21,20 +17,6 @@ st.markdown(
         [data-testid="stSidebar"] {
             width: 280px !important;
             min-width: 280px !important;
-        }
-
-        /* Use transform: scale with reasonable scale */
-        html, body {
-            transform: scale(0.8);  /* Keeps it at 100% zoom */
-            transform-origin: top left;
-            overflow: hidden;  /* Prevents page from overflowing */
-        }
-
-        /* Optionally scale the app view container */
-        [data-testid="stAppViewContainer"] {
-            transform: scale(1);  /* Keep content at 100% scale */
-            transform-origin: top left;
-            width: 100%;
         }
     </style>
     """,
