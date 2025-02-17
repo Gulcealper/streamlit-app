@@ -80,7 +80,7 @@ with col2:
         bargap=0.2,
         width=300,
         height=400,
-        legend=dict(title=None, orientation='h', yanchor='bottom', y=-0.5, xanchor='center', x=0.1,))
+        legend=dict(title=None, orientation='h', yanchor='bottom', y=-0.5, xanchor='center', x=0.6,))
     st.plotly_chart(fig)
 
 
