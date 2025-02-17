@@ -5,6 +5,10 @@ import plotly.express as px
 import pandas as pd
 
 
+
+#Page configuration
+st.set_page_config(page_title="NWFP MET", layout="wide")
+
 st.markdown(
     """
     <style>
@@ -16,8 +20,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-#Page configuration
-st.set_page_config(page_title="NWFP MET", layout="wide")
+
 
 
 
