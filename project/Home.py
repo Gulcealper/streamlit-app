@@ -9,19 +9,24 @@ import pandas as pd
 #Page configuration
 st.set_page_config(page_title="NWFP MET", layout="wide")
 
+
 st.markdown(
     """
     <style>
-        body {
+        /* Reduce sidebar width */
+        [data-testid="stSidebar"] {
+            width: 180px !important;
+            min-width: 180px !important;
+        }
+
+        /* Apply zoom globally */
+        html, body {
             zoom: 100%;
         }
     </style>
     """,
     unsafe_allow_html=True,
 )
-
-
-
 
 
 
