@@ -11,28 +11,19 @@ st.set_page_config(page_title="NWFP MET", layout="wide")
 
 
 
+
 st.markdown(
     """
     <style>
-        /* Apply zoom globally */
-        html, body {
-            transform: scale(0.9);  /* Adjust the scale factor as needed */
-            transform-origin: top left;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-        }
-
-        /* Make sure the layout adjusts properly */
-        .stApp {
-            width: 100%;
-            overflow-x: hidden;
-        }
-
         /* Reduce sidebar width */
         [data-testid="stSidebar"] {
             width: 200px !important;
             min-width: 200px !important;
+        }
+
+        /* Apply zoom globally */
+        html, body {
+            zoom: 100%;
         }
     </style>
     """,
