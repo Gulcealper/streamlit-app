@@ -10,6 +10,7 @@ import pandas as pd
 st.set_page_config(page_title="NWFP MET", layout="wide")
 
 
+
 st.markdown(
     """
     <style>
@@ -18,10 +19,17 @@ st.markdown(
             width: 200px !important;
             min-width: 200px !important;
         }
+
+        /* Apply zoom globally */
+        html, body {
+            zoom: 100%;
+        }
     </style>
     """,
     unsafe_allow_html=True,
 )
+
+
 
 #Placing Rothamsted logo and page title side by side
 col1, col2 = st.columns([1, 5])  
