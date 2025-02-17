@@ -71,15 +71,15 @@ with col2:
     fig.for_each_trace(lambda t: t.update(name=new_legend_titles.get(t.name, t.name)))
     fig.update_layout(
         title='The NWFP MET Data Quality Distribution by Variable',
-        title_x=0.4,
+        title_x=0.2,
         template='seaborn',
         xaxis=dict(title='', showgrid=False),
         yaxis=dict(title='', showgrid=False),
         xaxis_title='NWFP Met Variables',
         yaxis_title='Count',
         bargap=0.2,
-        width=900,
-        height=900,
+        width=300,
+        height=400,
         legend=dict(title=None, orientation='h', yanchor='bottom', y=-0.5, xanchor='center', x=0.5,))
     st.plotly_chart(fig)
 
