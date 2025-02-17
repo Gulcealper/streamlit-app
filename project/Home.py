@@ -17,13 +17,15 @@ st.markdown(
     <style>
         /* Reduce sidebar width */
         [data-testid="stSidebar"] {
-            width: 190px !important;
-            min-width: 190px !important;
+            width: 240px !important;
+            min-width: 240px !important;
         }
     </style>
     """,
     unsafe_allow_html=True,
 )
+
+
 
 #Placing Rothamsted logo and page title side by side
 col1, col2 = st.columns([1, 5])  
