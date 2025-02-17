@@ -16,19 +16,33 @@ st.markdown(
     <style>
         /* Reduce sidebar width */
         [data-testid="stSidebar"] {
-            width: 200px !important;
-            min-width: 200px !important;
+            width: 180px !important;
+            min-width: 180px !important;
         }
 
         /* Apply zoom globally */
         html, body {
-            zoom: 95%;
+            zoom: 90%;  /* Apply zoom at 90% */
+        }
+
+        /* Ensure the main content fills the entire page */
+        [data-testid="stAppViewContainer"] {
+            width: 100% !important;
+            max-width: 100% !important;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        /* Adjust for the main content */
+        .css-1d391kg {
+            width: 100% !important;
         }
     </style>
     """,
     unsafe_allow_html=True,
 )
-
 
 
 #Placing Rothamsted logo and page title side by side
