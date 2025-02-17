@@ -16,7 +16,7 @@ st.markdown(
     <style>
         /* Apply zoom globally */
         html, body {
-            transform: scale(0.8);  /* Adjust the scale factor as needed */
+            transform: scale(0.9);  /* Adjust the scale factor as needed */
             transform-origin: top left;
             width: 100%;
             height: 100%;
