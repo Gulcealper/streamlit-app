@@ -25,7 +25,7 @@ st.markdown(
 
         /* Use transform: scale with reasonable scale */
         html, body {
-            transform: scale(1);  /* Keeps it at 100% zoom */
+            transform: scale(0.8);  /* Keeps it at 100% zoom */
             transform-origin: top left;
             overflow: hidden;  /* Prevents page from overflowing */
         }
