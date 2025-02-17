@@ -125,7 +125,6 @@ st.sidebar.markdown("""
     <h1 style='font-size: 14px; font-weight: bold;'>Select for Seasonal View</h1>
 """, unsafe_allow_html=True)
 selected_year = st.sidebar.selectbox("Select Year: (Optional)", [None] + list(df.index.year.unique()))
-selected_year = st.sidebar.selectbox("", [None] + list(df.index.year.unique()))
 if selected_year:
     st.header("Sesonal Averages")
     df_year = df[df.index.year == selected_year]
