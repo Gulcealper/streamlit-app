@@ -15,11 +15,6 @@ st.set_page_config(page_title="NWFP MET", layout="wide")
 st.markdown(
     """
     <style>
-        .main {
-         background-color: white;
-         color: black;
-        }
-    
         /* Reduce sidebar width */
         [data-testid="stSidebar"] {
             width: 240px !important;
