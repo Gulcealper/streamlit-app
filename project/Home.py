@@ -78,7 +78,7 @@ with col2:
         xaxis_title='NWFP Met Variables',
         yaxis_title='Count',
         bargap=0.3,
-        width=600,
+        width=500,
         height=400,
         legend=dict(title=None, orientation='h', yanchor='bottom', y=-0.2, xanchor='center', x=0.5,))
     st.plotly_chart(fig)
