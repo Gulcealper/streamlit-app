@@ -121,7 +121,7 @@ st.plotly_chart(fig, key="10")
 
 
 
-st.sidebar.title("""
+st.sidebar.markdown("""
     <h1 style='font-size: 24px; font-weight: bold;'>Select for Seasonal View</h1>
 """, unsafe_allow_html=True)
 selected_year = st.sidebar.selectbox("Select Year: (Optional)", [None] + list(df.index.year.unique()))
