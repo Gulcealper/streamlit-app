@@ -25,7 +25,7 @@ st.markdown(
         html {
             transform: scale(0.5);
             transform-origin: top left;
-            width: 150%;
+            width: 100%;
         }
     </style>
     """,
