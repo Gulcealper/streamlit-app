@@ -12,6 +12,8 @@ st.set_page_config(page_title="NWFP MET", layout="wide")
 
 
 
+
+
 st.markdown(
     """
     <style>
@@ -21,18 +23,23 @@ st.markdown(
             min-width: 280px !important;
         }
 
-        /* Use transform: scale instead of zoom */
-        html {
-            transform: scale(0.7);
+        /* Use transform: scale with reasonable scale */
+        html, body {
+            transform: scale(1);  /* Keeps it at 100% zoom */
             transform-origin: top left;
-            width: 150%;
+            overflow: hidden;  /* Prevents page from overflowing */
+        }
+
+        /* Optionally scale the app view container */
+        [data-testid="stAppViewContainer"] {
+            transform: scale(1);  /* Keep content at 100% scale */
+            transform-origin: top left;
+            width: 100%;
         }
     </style>
     """,
     unsafe_allow_html=True,
 )
-
-
 
 #Placing Rothamsted logo and page title side by side
 col1, col2 = st.columns([1, 5])  
