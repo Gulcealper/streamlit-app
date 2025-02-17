@@ -10,6 +10,8 @@ import pandas as pd
 st.set_page_config(page_title="NWFP MET", layout="wide")
 
 
+
+
 st.markdown(
     """
     <style>
@@ -19,9 +21,11 @@ st.markdown(
             min-width: 280px !important;
         }
 
-        /* Apply zoom globally */
-        html, body {
-            zoom: 100%;
+        /* Use transform: scale instead of zoom */
+        html {
+            transform: scale(0.1);
+            transform-origin: top left;
+            width: 150%;
         }
     </style>
     """,
