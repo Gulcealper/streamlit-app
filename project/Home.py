@@ -22,7 +22,7 @@ st.markdown(
 
         /* Apply zoom globally */
         html, body {
-            zoom: 100%;  /* Apply zoom at 90% */
+            zoom: 90%;  /* Apply zoom at 90% */
         }
 
         /* Ensure the main content fills the entire page */
