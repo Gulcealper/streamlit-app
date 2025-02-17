@@ -16,25 +16,29 @@ st.markdown(
     <style>
         /* Reduce sidebar width */
         [data-testid="stSidebar"] {
-            width: 200px !important;
-            min-width: 200px !important;
+            width: 180px !important;
+            min-width: 180px !important;
         }
 
         /* Apply zoom globally */
         html, body {
-            zoom: 90%;  /* Apply zoom at 90% */
+            zoom: 90%;
         }
 
-        /* Ensure the main content fills the entire page */
+        /* Expand main content to take full width */
         [data-testid="stAppViewContainer"] {
-            width: 100% !important;
-            max-width: 100% !important;
-            margin-left: 0 !important;
-            margin-right: 200 !important;
-            padding-left: "10px;
-            padding-right: 10px;
+            width: 100vw !important;  /* Set to full viewport width */
+            height: 100vh !important;  /* Set to full viewport height */
+            margin: 0 !important;      /* Remove any margins */
+            padding: 0 !important;     /* Remove any padding */
+            overflow: hidden;          /* Prevent scrolling */
         }
 
+        /* Ensure the main content is properly aligned */
+        .css-1d391kg {
+            width: 100% !important;
+            height: 100% !important;
+        }
     </style>
     """,
     unsafe_allow_html=True,
