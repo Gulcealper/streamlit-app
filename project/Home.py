@@ -17,8 +17,8 @@ st.markdown(
     <style>
         /* Reduce sidebar width */
         [data-testid="stSidebar"] {
-            width: 200px !important;
-            min-width: 200px !important;
+            width: 180px !important;
+            min-width: 180px !important;
         }
     </style>
     """,
