@@ -15,21 +15,31 @@ st.set_page_config(page_title="NWFP MET", layout="wide")
 st.markdown(
     """
     <style>
+        /* Apply zoom globally */
+        html, body {
+            zoom: 75%;
+            -webkit-transform: scale(0.75);  /* For Webkit browsers */
+            -moz-transform: scale(0.75);     /* For Mozilla Firefox */
+            -ms-transform: scale(0.75);      /* For Internet Explorer */
+            transform: scale(0.75);
+            transform-origin: top left;
+        }
+        
+        /* Adjust page layout to handle zoomed content */
+        .stApp {
+            width: 100% !important;
+            overflow-x: hidden !important;
+        }
+
         /* Reduce sidebar width */
         [data-testid="stSidebar"] {
             width: 200px !important;
             min-width: 200px !important;
         }
-
-        /* Apply zoom globally */
-        html, body {
-            zoom: 75%;
-        }
     </style>
     """,
     unsafe_allow_html=True,
 )
-
 
 
 #Placing Rothamsted logo and page title side by side
