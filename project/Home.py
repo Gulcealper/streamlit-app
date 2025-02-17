@@ -20,11 +20,6 @@ st.markdown(
             width: 200px !important;
             min-width: 200px !important;
         }
-
-        /* Apply zoom globally */
-        html, body {
-            zoom: 100%;
-        }
     </style>
     """,
     unsafe_allow_html=True,
