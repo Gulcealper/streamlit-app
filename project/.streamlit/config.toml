@@ -7,7 +7,7 @@ secondaryBackgroundColor = "#D3D3D3"
 textColor = "#333335"
 font = "sans serif"
 
-#[layout]
-#wide = true
+[layout]
+wide = true
 
 
