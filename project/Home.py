@@ -15,6 +15,16 @@ st.set_page_config(page_title="NWFP MET", layout="wide")
 st.markdown(
     """
     <style>
+        /* Force light mode */
+        .main {
+            background-color: white;
+            color: black;
+        }
+        .sidebar .sidebar-content {
+            background-color: white;
+            color: black;
+        }
+
         /* Reduce sidebar width */
         [data-testid="stSidebar"] {
             width: 240px !important;
@@ -24,7 +34,6 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-
 
 
 #Placing Rothamsted logo and page title side by side
