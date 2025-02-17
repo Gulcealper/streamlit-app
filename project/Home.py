@@ -16,13 +16,13 @@ st.markdown(
     <style>
         /* Reduce sidebar width */
         [data-testid="stSidebar"] {
-            width: 180px !important;
-            min-width: 180px !important;
+            width: 200px !important;
+            min-width: 200px !important;
         }
 
         /* Apply zoom globally */
         html, body {
-            zoom: 90%;  /* Apply zoom at 90% */
+            zoom: 100%;  /* Apply zoom at 90% */
         }
 
         /* Ensure the main content fills the entire page */
