@@ -91,7 +91,7 @@ with col2:
         bargap=0.2,
         width=300,
         height=600,
-        legend=dict(title=None, orientation='h', yanchor='bottom', y=-0.3, xanchor='center', x=0.5,))
+        legend=dict(title=None, orientation='h', yanchor='bottom', y=-0.2, xanchor='center', x=0.5,))
     st.plotly_chart(fig)
 
 
