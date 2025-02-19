@@ -9,7 +9,4 @@ Platform: effect of temperate grassland farming systems on soil moisture content
 runoff and associated water quality dynamics. European Journal of Soil Science, 67, 
 4, 374-385. (doi:10.1111/ejss.12350).
 
-“The North Wyke Farm Platform is a UK National Capability supported by the Biotechnology 
-and Biological Sciences Research Council (BBS/E/RH/23NB0008).” 
-“We acknowledge the interests of the Ecological Continuity Trust (ECT), whose national 
-network of LTEs includes the experiment on which this research was conducted.” 
+
